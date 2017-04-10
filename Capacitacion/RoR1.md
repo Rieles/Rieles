@@ -4,12 +4,10 @@
 
 ### Configurar Usuario y llave de SSH
 
-"""bash
-
+```bash
 sudo apt-get install postgresql postgresql-contrib libpq-dev
 sudo -u postgres createuser -s depoy # deploy es el usuario con el que estamos haciendo el deploy
-
-"""
+```
 
 
 ## Scaleway
